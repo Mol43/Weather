@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #87ceeb, #1e6099);
+    color: white;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(40px);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+
+.weather-info{
+    display: flex;
+    gap: 10px;
+}
+
+.liner{
+    border: 1px solid #f4f4f4;
+}
+
+img {
+    width: 100px;
+}
